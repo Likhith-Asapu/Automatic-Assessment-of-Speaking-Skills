@@ -176,7 +176,9 @@ def get_audio_features(file_path,segment_length,no_of_words):
     
     return feature
 def main():
-    file_path = "sample2.wav"
+    
+    print("Enter Audio File Name: ",end = "")
+    file_path = input()
     low_level_feature,segment_length = get_low_level_feature(file_path)
     text_feature,no_of_words = get_text_feature(file_path,segment_length)
     audio_feature = get_audio_features(file_path,segment_length,no_of_words)
