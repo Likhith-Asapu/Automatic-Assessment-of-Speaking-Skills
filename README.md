@@ -78,6 +78,4 @@ Enter the name of the audio file which needs to be tested
 Enter Audio File Name: sample.txt
 ```
 
-The output will two boolean values based on perceived Enjoyment and Expressiveness.
-
-
+The output will two boolean values based on  Enjoyment and Expressiveness.
