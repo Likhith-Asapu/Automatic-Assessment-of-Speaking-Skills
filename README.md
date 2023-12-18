@@ -16,8 +16,7 @@ Information*. The details of the models implemented in this repo can be found in
 - fasttext
 - tqdm
 
-Run `pip install -r requirements.txt
-` to install all the required packages.
+Run `pip install -r requirements.txt` to install all the required packages.
 
 # Folder Structure
 
@@ -54,23 +53,24 @@ Automatic-Assessment-of-Speaking-Skills
 └───Presentation.pdf
 ```
 
-# Dataset
+# Datasets
 
 The Datasets used in this paper are:
-- IEMOCAP
-- Savee
-- Emovo
-- Emo-db
-- Ravdess
-- PuSQ
+
+1. IEMOCAP
+2. Savee
+3. Emovo
+4. Emo-db
+5. Ravdess
+6. PuSQ
 
 # Usage
 
 To test the final model, run the following commands:
 
-```zsh
+```Shell
 cd Test
-python test.py
+python3 test.py
 ```
 
 Enter the name of the audio file which needs to be tested
